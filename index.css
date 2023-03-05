@@ -1,0 +1,135 @@
+html {
+  min-height: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "lato", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background: #085078; /* fallback for old browsers */
+  background: linear-gradient(
+    114.3deg,
+    rgb(19, 126, 57) 0.2%,
+    rgb(8, 65, 91) 68.5%
+  );
+  background: url(img/splash.jpg) no-repeat center/cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(
+    to right,
+    #85d8ce26,
+    #024f79c7
+  ); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header {
+  height: 5em;
+  width: 10em;
+  border-radius: 5px;
+  background: linear-gradient(
+    114.3deg,
+    rgb(19, 126, 57) 0.2%,
+    rgb(8, 65, 91) 68.5%
+  );
+
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+  color: antiquewhite;
+  box-shadow: 17px 17px 0px 0px #ebebeb;
+  /* position: relative;
+  top: -90px; */
+}
+.main-content {
+  height: 25em;
+  width: 22em;
+  background: radial-gradient(
+    862px at 6% 18%,
+    rgb(21, 219, 149) 9.4%,
+    rgb(26, 35, 160) 83.6%
+  );
+
+  padding: 10px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 20px 20px 10px 10px #0a0909bf;
+  background: url(img/ghy.jpeg) no-repeat center center/cover;
+}
+
+.text-area {
+  margin: 20px;
+  color: rgb(0, 0, 66);
+}
+.qoute {
+  font-size: 20px;
+  padding: 2px;
+  font-style: italic;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(
+    114.3deg,
+    rgb(19, 126, 57) 0.2%,
+    rgb(8, 65, 91) 68.5%
+  );
+
+  color: #ebebeb;
+}
+.person {
+  color: #00411d;
+  font-weight: lighter;
+  font-size: 20px;
+  font-style: italic;
+  background-color: #ebebebab;
+  position: absolute;
+  bottom: 111px;
+}
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+button {
+  all: none;
+  border-radius: 5px;
+  background: linear-gradient(
+    114.3deg,
+    rgb(19, 126, 57) 0.2%,
+    rgb(8, 65, 91) 68.5%
+  );
+
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+  color: antiquewhite;
+  box-shadow: 7px 7px 0px 0px #ebebeb;
+  position: relative;
+  top: -66;
+  vertical-align: top;
+  transition: all 200ms ease-in-out;
+}
+
+button:active {
+  background: radial-gradient(
+    759px at 14% 22.3%,
+    rgb(10, 64, 88) 0%,
+    rgb(15, 164, 102) 90%
+  );
+
+  transform: translateY(2px);
+}
