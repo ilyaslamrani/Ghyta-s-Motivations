@@ -20,7 +20,7 @@ body {
     rgb(19, 126, 57) 0.2%,
     rgb(8, 65, 91) 68.5%
   );
-  background: url(img/splash.jpg) no-repeat center/cover;
+  background: url(./splash.jpg) no-repeat center/cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -69,7 +69,7 @@ body {
   margin: 20px;
   border-radius: 10px;
   box-shadow: 20px 20px 10px 10px #0a0909bf;
-  background: url(img/ghy.jpeg) no-repeat center center/cover;
+  background: url(./ghy.jpeg) no-repeat center center/cover;
 }
 
 .text-area {
